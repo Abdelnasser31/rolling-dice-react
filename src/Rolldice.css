@@ -1,0 +1,23 @@
+.Rolldice{
+    text-align: center;
+    margin-top: 20px;
+}
+.Rolldice-dice{
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.Rolldice-button{
+    color: white;
+    background-color: purple;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #545455;
+    border-radius: 3px;
+}
