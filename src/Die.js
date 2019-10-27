@@ -9,7 +9,7 @@ class Die extends Component{
     render(){
         const {number, color} = this.props
      return   <div>
-            <i className={`fas fa-9x fa-dice-${number}`} style={{color: color}}></i>
+            <i className={`fas fa-9x fa-dice-${number}`} style={{color: color,marginLeft: '10px'}}></i>
         </div>
     }
 }
